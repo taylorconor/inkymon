@@ -85,4 +85,4 @@ def refresh(calendar_events, todos):
     _draw_calendar_frame(draw)
     _draw_calendar_events(draw, calendar_events)
     _draw_todos(draw, todos)
-    image.show()
+    return image
